@@ -1,0 +1,149 @@
+
+.swiper-container {
+  position: relative;
+  width: calc(100% - 420px);
+  overflow: visible;
+  height: 592px;
+ 
+}
+.swiper-row .swiper-slide img {
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-row {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-wrapper {
+ 
+}
+
+.swiper-container > .swiper-slide__content {
+  position: absolute;
+  top: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms linear;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+.swiper-slide.swiper-slide-active {
+
+}
+
+.swiper-slide img {
+  transition: 0.3s ease all;
+}
+
+.swiper-slide-active img,
+.swiper-slide-duplicate-active img {
+  transform: scale(1);
+  border: 3px solid #fff;
+}
+
+.swiper-slide-active .slidetitle,
+.swiper-slide-duplicate-active .slidetitle {
+   opacity: 1;
+}
+
+.swiper-slide-next img,
+.swiper-slide-duplicate-next img {
+  transform-origin: left bottom;
+  transform: scale(0.5);
+}
+
+.swiper-slide-prev img,
+.swiper-slide-duplicate-prev img {
+  transform-origin: right top;
+  transform: scale(0.5);
+}
+
+.navrow span.arrow-img  img {
+  width: 32px;
+  display: block;
+  margin-bottom: 30px;
+  transition: all 250ms ease-in-out;
+}
+.navrow > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 172px;
+  text-align: right;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+.navrow > div.sld-next {
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 20px;
+}
+.navrow > div.sld-next .title {
+  margin-bottom: 0;
+  margin-top: 40px; 
+}
+.navrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  right: 0;
+  color: #fff;
+}
+.navrow .sld-prev {
+  left: 0;
+  bottom: 0;
+}
+.navrow .sld-prev:hover .arrow-img img {
+  transform: translateX(-10px);
+}
+.navrow .sld-next:hover .arrow-img img {
+  transform: rotate(0) translateX(-10px);
+}
+.navrow .sld-next {
+
+  right: 0;
+  top: 0;
+}
+.number {
+  font-size: 75px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sld-next .arrow-img {
+  transform: rotate(180deg);
+ }
+ .navrow .title { font-size: 18px; margin-bottom: 40px; }
+
+ .slidetitle {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  padding: 20px 50px;
+  color: #000;
+  font-size: 40px;
+  max-width: 600px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 250ms ease-in, visibility 250ms ease-in;
+}

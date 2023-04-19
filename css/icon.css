@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ndib5z');
+  src:  url('../fonts/icomoon.eot?ndib5z#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ndib5z') format('truetype'),
+    url('../fonts/icomoon.woff?ndib5z') format('woff'),
+    url('../fonts/icomoon.svg?ndib5z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aerosolen:before {
+  content: "\e900";
+}
+.icon-alert-box:before {
+  content: "\e901";
+}
+.icon-all-solution:before {
+  content: "\e902";
+}
+.icon-analysis:before {
+  content: "\e903";
+}
+.icon-call:before {
+  content: "\e904";
+}
+.icon-caution-alert:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-decentralize-climate:before {
+  content: "\e907";
+}
+.icon-desnfectie:before {
+  content: "\e908";
+}
+.icon-download:before {
+  content: "\e909";
+}
+.icon-duurzaamheid:before {
+  content: "\e90a";
+}
+.icon-dynamic-heat-rec:before {
+  content: "\e90b";
+}
+.icon-electric:before {
+  content: "\e90c";
+}
+.icon-email:before {
+  content: "\e90d";
+}
+.icon-energy-saving:before {
+  content: "\e90e";
+}
+.icon-heat-recovery:before {
+  content: "\e90f";
+}
+.icon-home:before {
+  content: "\e910";
+}
+.icon-humidity:before {
+  content: "\e911";
+}
+.icon-leading-durability:before {
+  content: "\e912";
+}
+.icon-micro:before {
+  content: "\e913";
+}
+.icon-monitoren:before {
+  content: "\e914";
+}
+.icon-next:before {
+  content: "\e915";
+}
+.icon-optimal-climate:before {
+  content: "\e916";
+}
+.icon-pause:before {
+  content: "\e917";
+}
+.icon-play:before {
+  content: "\e918";
+}
+.icon-prev:before {
+  content: "\e919";
+}
+.icon-que-mark:before {
+  content: "\e91a";
+}
+.icon-quote:before {
+  content: "\e91b";
+}
+.icon-search:before {
+  content: "\e91c";
+}
+.icon-sensoren:before {
+  content: "\e91d";
+}
+.icon-solar-panel:before {
+  content: "\e91e";
+}
+.icon-temperature:before {
+  content: "\e91f";
+}
+.icon-ventilation:before {
+  content: "\e920";
+}
+.icon-verneveling:before {
+  content: "\e921";
+}
